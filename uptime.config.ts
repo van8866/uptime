@@ -49,18 +49,6 @@ const workerConfig = {
       // checkLocationWorkerRoute: 'https://am.809098.xyz',
     },
     // Example TCP Monitor
-    {
-      id: '809098.xyz',
-      name: 'Blog',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://809098.xyz',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://809098.xyz',
-      timeout: 10000,
-    },
-  ],
   notification: {
     // [Optional] apprise API server URL
     // if not specified, no notification will be sent
